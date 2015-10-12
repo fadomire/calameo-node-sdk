@@ -1,0 +1,19 @@
+{
+  "name": "calameo-node-sdk",
+  "description": "Consume Calameo API easily",
+  "version": "0.0.1",
+  "author": {
+    "name": "Fadomire",
+    "email": "fadomire@gmail.com"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "crypto": "^0.0.3"
+  },
+  "license": "MIT",
+  "main": "calameo-node-sdk.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fadomire/calameo-node-sdk.git"
+  }
+}
