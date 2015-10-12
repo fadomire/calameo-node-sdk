@@ -1,7 +1,7 @@
 {
   "name": "calameo-node-sdk",
   "description": "Consume Calameo API easily",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Fadomire",
     "email": "fadomire@gmail.com"
