@@ -7,7 +7,7 @@
     "email": "fadomire@gmail.com"
   },
   "dependencies": {
-    "async": "^1.4.2",
+    "unirest": "^0.4.2",
     "crypto": "^0.0.3"
   },
   "license": "MIT",
