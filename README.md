@@ -42,6 +42,9 @@ calameoSdk.addSubscriberDRMSingle({
 });
 ```
 
+#### Full API documentation
+you can find the full API reference at http://help.calameo.com/
+
 #### Available methods and their required arguments
 ```
 // accounts
