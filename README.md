@@ -34,16 +34,24 @@ calameoSdk.addSubscriberDRMSingle({
 	subscription_id: 'id of the subscription',
 	book_id: 'book code',
 	callback: function (response) {
-    // do what you need with the response
-    var resp = response.body.response;
-    if (resp && resp.status === 'error') return throw new Error(resp.error.message);
-    console.log(resp.content);
+	    // do what you need with the response
+	    var resp = response.body.response;
+	    if (resp && resp.status === 'error')
+	    {
+	    	throw new Error(resp.error.message);
+	    }
+	    else
+	    {
+	    	console.log(resp.content);
+	    }
+
+	    
 	}
 });
 ```
 
 #### Full API documentation
-you can find the full API reference at http://help.calameo.com/
+you can find the full API reference at [http://help.calameo.com/](http://help.calameo.com/)
 
 #### Available methods and their required arguments
 ```
